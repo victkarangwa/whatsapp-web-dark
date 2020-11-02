@@ -1,0 +1,77 @@
+
+.contact-card{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  margin: 20px 20px 0px 0px;
+  padding: 10px;
+  cursor: pointer;
+}
+div.contact-card:hover{
+  background-color: rgba(255, 255, 255, 0.116);
+}
+.prof-img{
+  width: 50px;
+  height: 50px;
+}
+.contact-prof{
+  padding-right: 20px;
+}
+.main-page{
+  display: flex;
+  
+}
+.contact-panel{
+  width: 30%;
+  border: 1px solid rgba(156, 156, 156, 0.377);
+  height: 100vh;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.chat-time{
+  color: rgb(151, 151, 151);
+}
+.chat-head{
+text-align: center;
+}
+.chats-num{
+  display: inline-block;
+  font-size: 12px ;
+  font-weight: 600; 
+   background-color: rgb(2, 71, 136);
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  text-align: center;
+  padding:3px;
+}
+.chat-panel{
+  height: 100vh;
+}
+.chat-profile{
+  width: 100%;
+  height: 60px;
+  border: solid rgba(156, 156, 156, 0.377);
+  border-width: 1px 1px 1px 0px;
+  color: white;
+  text-align: center;
+}
+.user-profile{
+  width: 100%;
+  height: 60px;
+  border: solid rgba(156, 156, 156, 0.377);
+  border-width: 0px 0px 1px 0px;
+  color: white;
+  text-align: center;
+}
